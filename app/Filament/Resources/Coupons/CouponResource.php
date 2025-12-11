@@ -19,7 +19,8 @@ class CouponResource extends Resource
 {
     protected static ?string $model = Coupon::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::Ticket;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedTicket;
+    protected static string|BackedEnum|null $activeNavigationIcon = Heroicon::Ticket;
 
     protected static ?string $recordTitleAttribute = 'Cupon';
 

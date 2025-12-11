@@ -16,7 +16,7 @@ class DiscountForm
                 TextInput::make('string')
                     ->required(),
                 Select::make('type')
-                    ->options(['%' => '%', 'fixed' => 'Fixed'])
+                    ->options(['%' => 'Porcentaje %', 'fixed' => 'Monto fijo'])
                     ->required(),
                 TextInput::make('value')
                     ->required()
@@ -27,10 +27,10 @@ class DiscountForm
                     ->required(),
                 Select::make('apply_to')
                     ->options([
-            'all products' => 'All products',
-            'specific products' => 'Specific products',
-            'specific categories' => 'Specific categories',
-        ])
+                        'all products' => 'All products',
+                        'specific products' => 'Specific products',
+                        'specific categories' => 'Specific categories',
+                    ])
                     ->required(),
             ]);
     }

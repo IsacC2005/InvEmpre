@@ -21,10 +21,9 @@ class UserResource extends Resource
     protected static ?string $model = User::class;
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedIdentification;
+    protected static string|BackedEnum|null $activeNavigationIcon = Heroicon::Identification;
 
-    protected static ?string $pluralLabel = 'Usuarios';
-
-    protected static ?string $label = 'Usuario';
+    protected static ?string $recordTitleAttribute = 'User';
 
     public static function form(Schema $schema): Schema
     {

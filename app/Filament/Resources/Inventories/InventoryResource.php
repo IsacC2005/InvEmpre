@@ -19,7 +19,8 @@ class InventoryResource extends Resource
 {
     protected static ?string $model = Inventory::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::ClipboardDocumentList;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedClipboardDocumentList;
+    protected static string|BackedEnum|null $activeNavigationIcon = Heroicon::ClipboardDocumentList;
 
     protected static ?string $pluralLavel = 'Inventario';
 

@@ -20,7 +20,8 @@ class CategorieResource extends Resource
 
     protected static ?string $model = Categorie::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::Squares2x2;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedSquares2x2;
+    protected static string|BackedEnum|null $activeNavigationIcon = Heroicon::Squares2x2;
 
     protected static ?string $recordTitleAttribute = 'Categoría';
 
