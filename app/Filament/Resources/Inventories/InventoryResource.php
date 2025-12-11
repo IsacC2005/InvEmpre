@@ -22,7 +22,7 @@ class InventoryResource extends Resource
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedClipboardDocumentList;
     protected static string|BackedEnum|null $activeNavigationIcon = Heroicon::ClipboardDocumentList;
 
-    protected static ?string $pluralLavel = 'Inventario';
+    protected static ?string $pluralLabel = 'Inventario';
 
     protected static ?string $label = 'Inventario';
 
