@@ -27,12 +27,12 @@ Construido sobre la solidez de **Laravel** y la interfaz intuitiva de **Filament
 Este proyecto está construido con las siguientes tecnologías principales:
 
 #### Pila de tecnologías
-- **Laravel**: Versión `^12.42.0`.
-- **Filament**: Version `^v4.0.0`.
+- **Laravel**: Versión `12.42.0`.
+- **Filament**: Versión `4.0.0`.
 
 ####Plugin de Filament
 
-- **Shield**: Version `v4.0.0`.
+- **Shield**: Versión `4.0.0`.
 
 ---
 
