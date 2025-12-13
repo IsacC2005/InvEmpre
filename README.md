@@ -33,6 +33,10 @@ Este proyecto está construido con las siguientes tecnologías principales:
 ####Plugin de Filament
 
 - **Shield**: Versión `4.0.0`.
+- **filament-breezy**: Versión `3.0.0`.
+
+####Libreria de laravel
+- **Breeze**: Versión `^2.3`.
 
 ---
 
