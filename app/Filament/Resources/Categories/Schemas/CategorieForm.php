@@ -2,6 +2,8 @@
 
 namespace App\Filament\Resources\Categories\Schemas;
 
+use App\Models\Category;
+use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Schema;
 
@@ -13,8 +15,10 @@ class CategorieForm
             ->components([
                 TextInput::make('name')
                     ->required(),
-                TextInput::make('parent_id')
-                    ->numeric(),
+                Select::make('parent_id')
+                    ->label('Categoria')
+                    ->options(Category::query()->pluck('name', 'id'))
+                    ->searchable()
             ]);
     }
 }

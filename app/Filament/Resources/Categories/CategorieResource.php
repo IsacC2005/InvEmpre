@@ -7,7 +7,7 @@ use App\Filament\Resources\Categories\Pages\EditCategorie;
 use App\Filament\Resources\Categories\Pages\ListCategories;
 use App\Filament\Resources\Categories\Schemas\CategorieForm;
 use App\Filament\Resources\Categories\Tables\CategoriesTable;
-use App\Models\Categorie;
+use App\Models\Category;
 use BackedEnum;
 use UnitEnum;
 use Filament\Resources\Resource;
@@ -18,7 +18,7 @@ use Filament\Tables\Table;
 class CategorieResource extends Resource
 {
 
-    protected static ?string $model = Categorie::class;
+    protected static ?string $model = Category::class;
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedSquares2x2;
     protected static string|BackedEnum|null $activeNavigationIcon = Heroicon::Squares2x2;
